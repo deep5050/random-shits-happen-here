@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T03:42:54.615Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="u14m2xr7vvo-zVybneHO" version="13.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-12T05:37:08.023Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="u7r8C73Y8rwsUW79_aDo" version="13.8.1" type="github" pages="2">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2594" dy="1812" grid="0" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1855" dy="1395" grid="0" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QX17U617VKGQrC0hADS9-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-10" target="QX17U617VKGQrC0hADS9-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="464" />
+              <mxPoint x="165" y="464" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QX17U617VKGQrC0hADS9-10" value="SEND A HELLO MESSAGE WITH NAME" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="102.25" y="347" width="105" height="105" as="geometry" />
@@ -120,11 +125,13 @@
         <mxCell id="QX17U617VKGQrC0hADS9-23" value="CLOSE CONNECTION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="671" y="569" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QX17U617VKGQrC0hADS9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.97;entryY=0.331;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-25" target="QX17U617VKGQrC0hADS9-14">
+        <mxCell id="QX17U617VKGQrC0hADS9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-25" target="QX17U617VKGQrC0hADS9-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="952" y="743" />
               <mxPoint x="952" y="515" />
+              <mxPoint x="257" y="515" />
+              <mxPoint x="257" y="548" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -168,14 +175,15 @@
         <mxCell id="QX17U617VKGQrC0hADS9-33" value="RECEIVER&amp;nbsp;&lt;br&gt;CONNECTED&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="818" y="831.5" width="131" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="QX17U617VKGQrC0hADS9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.94;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.228;exitY=0.073;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-35" target="QX17U617VKGQrC0hADS9-14">
+        <mxCell id="QX17U617VKGQrC0hADS9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.228;exitY=0.073;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-35" target="QX17U617VKGQrC0hADS9-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1157" y="847" />
               <mxPoint x="1157" y="499" />
               <mxPoint x="1161" y="499" />
               <mxPoint x="1161" y="490" />
-              <mxPoint x="228" y="490" />
+              <mxPoint x="248" y="490" />
+              <mxPoint x="248" y="512" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -246,7 +254,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QX17U617VKGQrC0hADS9-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-57" target="QX17U617VKGQrC0hADS9-63">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="879" />
+              <mxPoint x="-20" y="879" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QX17U617VKGQrC0hADS9-65" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QX17U617VKGQrC0hADS9-64">
           <mxGeometry x="0.2583" y="-1" relative="1" as="geometry">
@@ -256,23 +269,26 @@
         <mxCell id="QX17U617VKGQrC0hADS9-57" value="RECEIVER ALIVE&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="73" y="822" width="160" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="QX17U617VKGQrC0hADS9-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-58" target="QX17U617VKGQrC0hADS9-14">
+        <mxCell id="QX17U617VKGQrC0hADS9-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-58" target="QX17U617VKGQrC0hADS9-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="73.86591593424487" y="522.5669530232749" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-272" y="1014" />
               <mxPoint x="-272" y="523" />
-              <mxPoint x="85" y="523" />
+              <mxPoint x="61" y="523" />
+              <mxPoint x="61" y="542" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QX17U617VKGQrC0hADS9-58" value="ADD MESSAGE TO THE GLOBAL&amp;nbsp;&lt;br&gt;MESSAGE QUEUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="93" y="1002" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QX17U617VKGQrC0hADS9-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=0.724;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-63" target="QX17U617VKGQrC0hADS9-14">
+        <mxCell id="QX17U617VKGQrC0hADS9-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.04;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QX17U617VKGQrC0hADS9-63" target="QX17U617VKGQrC0hADS9-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-107" y="571" />
+              <mxPoint x="85" y="571" />
+              <mxPoint x="85" y="581" />
             </Array>
           </mxGeometry>
         </mxCell>

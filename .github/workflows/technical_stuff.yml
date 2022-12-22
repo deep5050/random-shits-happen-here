@@ -1,0 +1,30 @@
+name: Technical facts on New Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add_comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Comment on issue
+        run: |
+          # Select a random fact from the list
+          facts = [
+            "Did you know that the first computer mouse was made of wood?",
+            "The first computer game, called 'Tennis for Two', was created in 1958.",
+            "The first electronic computer, called the ENIAC, weighed 30 tons and took up 1800 square feet of space.",
+            "The first computer virus, called the Creeper Virus, was created in 1971 as an experiment."
+          ]
+          fact = facts[Math.floor(Math.random() * facts.length)]
+
+          # Add the comment to the issue
+          echo "Hey there! Thanks for opening this issue. Here's a cool technical fact for you: $fact"
+      - name: Add a comment to the issue
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: ${{ steps.comment_on_issue.outputs.fact }}
